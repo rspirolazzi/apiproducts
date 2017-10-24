@@ -1,0 +1,25 @@
+{
+  "name": "apiproducts",
+  "version": "1.0.0",
+  "description": "Api de Productos. Examen Tecnico Garbarino",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rspirolazzi/apiproducts.git"
+  },
+  "keywords": [
+    "Api",
+    "Products",
+    "Productos",
+    "Examen"
+  ],
+  "author": "Rodrigo Spirolazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rspirolazzi/apiproducts/issues"
+  },
+  "homepage": "https://github.com/rspirolazzi/apiproducts#readme"
+}
