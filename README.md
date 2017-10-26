@@ -26,7 +26,7 @@ Una vez clonado realizar el install con npm
 npm install
 ```
 
-Completar la configuración del proyecto desde los archivos de configuración ubicados en **config.json**
+Completar la configuración del proyecto desde el archivo de configuración ubicado en **config.json**
 ```
 {
   "port":4000,
@@ -40,7 +40,7 @@ Por ultimo
 
 Ejecuta la aplicacion en modo development.
 
-##CURL Examples
+## CURL Examples
 
 Obtener todos los productos
 
@@ -91,8 +91,8 @@ curl -X DELETE \
 
 ## Running the tests
 
-Se puede realizar la configuración separa para los test.
-Para ello es necesario generar un archivo de configuracion nuevo **config.test.json**
+Realizar la configuración separada para los test.
+Para ello es necesario generar un archivo de configuración nuevo **config.test.json**
 
 ```
 {
@@ -101,7 +101,7 @@ Para ello es necesario generar un archivo de configuracion nuevo **config.test.j
 }
 ```
 
-Ejecución de los test
+Ejecutar los test
 
 ### `npm test`
 
@@ -160,15 +160,10 @@ Se utilizo [Mongoose](http://mongoosejs.com)
 **index.js** Es el encargado cargar todos los routes que existan en el directorio
 **products.js** Tiene los verbos para acceder a los productos, dar de alta, editarlos o eliminarlos
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Mongoose](http://mongoosejs.com)
 * [Restify](https://restify.com/)
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 
