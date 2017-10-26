@@ -1,0 +1,4 @@
+{
+  "port":4000,
+  "db_connection":"mongodb://localhost/garbarino"
+}

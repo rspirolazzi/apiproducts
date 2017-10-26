@@ -1,25 +1,43 @@
 {
   "name": "apiproducts",
   "version": "1.0.0",
-  "description": "Api de Productos. Examen Tecnico Garbarino",
+  "description": "Api de Productos - Examen Garbarino",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "set NODE_ENV=test && mocha -w",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rspirolazzi/apiproducts.git"
+    "url": "https://github.com/rspirolazzi/apiproducts.git"
   },
-  "keywords": [
-    "Api",
-    "Products",
-    "Productos",
-    "Examen"
-  ],
-  "author": "Rodrigo Spirolazzi",
+  "author": "Rodrigo Spirolazzi <rspirolazzi@gmail.com> (https://github.com/rspirolazzi)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rspirolazzi/apiproducts/issues"
   },
-  "homepage": "https://github.com/rspirolazzi/apiproducts#readme"
+  "homepage": "https://github.com/rspirolazzi/apiproducts",
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "hippie": "^0.5.1",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "change-case": "^3.0.1",
+    "config.json": "0.0.4",
+    "mongoose": "^4.12.4",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.9.0",
+    "nconf": "^0.8.5",
+    "require-dir": "^0.3.2",
+    "restify": "^6.2.3",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-errors": "^5.0.0",
+    "restify-plugins": "^1.6.0",
+    "winston": "^2.4.0"
+  }
 }
